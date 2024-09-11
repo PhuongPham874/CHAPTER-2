@@ -1,1 +1,38 @@
 <!DOCTYPE html>
+<body>
+    <form action="" method="post">
+        <p style="color: red; text-align: center; font-size: 30px;"> <b>Book a Table</b></p>
+        <div style="text-align: center;">
+            <fieldset id="yourname">
+                <legend>Your name</legend>
+                <input type="text" name="yourname" id="yourname" required ><br>
+            </fieldset>
+            <fieldset id="s">
+                <legend>Sex</legend>
+                <input type="radio" name="male" id=" male">
+                <label for="male">Male</label>
+                <input type="radio" name="female" id="female" 
+                checked>
+                <label for="female">Female</label><br>
+            </fieldset>
+            <fieldset id="size">
+                <legend>Size</legend>
+                <input type="radio" id="2" name="2">
+                <label for="2person">2-person table</label>
+                <input type="radio" name="4" id="4" checked>
+                <label for="4person">4-person table</label>
+                <input type="radio" name="6" id="6">
+                <label for="6person">6-person table</label><br>
+            </fieldset>
+            <fieldset id="Location">
+                <legend>Location</legend>
+                <input type="radio" name="indoor" id="in">
+                <label for="indoor">Indoors</label>
+                <input type="radio" name="outdoor" id="out" checked>
+                <label for="outdoor">Outdoors</label>
+            </fieldset>
+            <button>Book table</button>
+            
+        </div>
+    </form>
+</body>
